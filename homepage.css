@@ -1,0 +1,154 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #000000
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-size: 14pt;
+  }
+  
+  h2 {
+    font-size: 36pt;
+    font-family: 'DM Serif Display', serif;
+    color: #eec8c8;
+    margin-left: 20%;
+    margin-top: 20%;
+    
+  }
+  
+  p {
+    line-height: 40px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  /* NAV BAR */
+  
+  .nav {
+    position: sticky;
+    list-style-type: none;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    height: 80px;
+  }
+  
+  .nav li {
+    color: #ffffff;
+    font-size: 14pt;
+    padding: 5px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav li a:hover {
+    color: grey;
+    cursor: pointer;
+  }
+  
+  .nav-logo {
+    display: block;
+    float: left;
+    /* Uncomment the line below to put the company name at the same height as the rest of the page links! */
+    /* margin-top: 30px; */
+  }
+  
+  .nav-links {
+    float: right;
+    margin-top: 30px;
+  }
+  
+  /* 1. HOME SECTION */
+  
+  h1 {
+    text-align: center;
+    color: #fafafa;
+    font-size: 60pt;
+    margin-top: 10%;
+  }
+  
+  .home-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin: 0;
+    padding-left: 50%;
+    width: 50%;
+  background-color: #5a5858;
+  }
+  h2{
+      margin-left: 20%;
+    margin-top: 20%;
+    margin-bottom: -10%;
+    font-size: 60pt;
+  }
+  h3{
+    margin-left: 10%;
+    margin-top: 20%;
+    margin-bottom: -10%;
+    font-size: 40pt;
+  }
+  
+  
+  /* 2. INTRO SECTION */
+  
+  .section2 {
+    display: block;
+    margin: 0% 0 3% 0%;
+    height: 20%;
+    padding: 10% 10%;
+  }
+  
+  .section2-text {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .abtme{
+    font-size: 20pt;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  /* 3. RESOURCES SECTION */
+  
+  .section3 {
+    display: block;
+    background-color: #ffffff;
+    padding:1% 10%;
+    color: black;
+    margin-top: -7%;
+  }
+  .abtpsychia{
+    font-size: 20pt;
+    padding-bottom: -30px;
+  }
+  .i1{
+    margin: 5px 20px;
+    padding-top: 5px;
+    width: 600px;
+  }
+  .i2{
+    margin: 20px 20px;
+    width: 600px;
+  }
+  
+  /* 4. Images */
+  
+  .section4{
+    display: block;
+    background-color: #ffffff;
+    padding:  -40% 25%;
+    color: black;
+  }
